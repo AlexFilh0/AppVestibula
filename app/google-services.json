@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "34369874576",
+    "firebase_url": "https://vestibula-51d56-default-rtdb.firebaseio.com",
+    "project_id": "vestibula-51d56",
+    "storage_bucket": "vestibula-51d56.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34369874576:android:aa5ee48a08ae6408774615",
+        "android_client_info": {
+          "package_name": "com.example.appvestibula"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDVR30RRT0dC-BhAiXoT9ySF1h64d3NJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34369874576:android:c9bd3e28afb053a4774615",
+        "android_client_info": {
+          "package_name": "com.example.vestibulaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDVR30RRT0dC-BhAiXoT9ySF1h64d3NJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#221E35"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/txtRevisaoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/bayon"
+        android:gravity="center"
+        android:text="Revisão das Respostas"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Score -->
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/bayon"
+        android:gravity="center"
+        android:text="Você acertou: 0 de 0"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <!-- Lista -->
+    <ListView
+        android:id="@+id/listaRevisao"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="1dp" />
+</LinearLayout>

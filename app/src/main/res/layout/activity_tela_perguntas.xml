@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#221E35"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="579dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/perguntaTexto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bayon"
+                android:paddingBottom="16dp"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <RadioGroup
+                android:id="@+id/grupoRespostas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#D35656"
+        android:backgroundTint="#D35656"
+        android:fontFamily="@font/bayon"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+
+</LinearLayout>

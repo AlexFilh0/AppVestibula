@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#221E35"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bayon"
+        android:text="VESTIBULA"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <Button
+        android:id="@+id/btnGeografia"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="195dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="108dp"
+        android:background="#D35656"
+        android:backgroundTint="#D35656"
+        android:fontFamily="@font/bayon"
+        android:text="Geografia"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitulo" />
+
+    <Button
+        android:id="@+id/btnHistoria"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="195dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="48dp"
+        android:background="#D35656"
+        android:backgroundTint="#D35656"
+        android:fontFamily="@font/bayon"
+        android:text="História"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGeografia" />
+
+    <Button
+        android:id="@+id/btnFilosofia"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="195dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="48dp"
+        android:background="#D35656"
+        android:backgroundTint="#D35656"
+        android:fontFamily="@font/bayon"
+        android:text="Filosofia"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHistoria" />
+
+    <Button
+        android:id="@+id/btnSociologia"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="195dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="48dp"
+        android:background="#D35656"
+        android:backgroundTint="#D35656"
+        android:fontFamily="@font/bayon"
+        android:text="Sociologia"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFilosofia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
